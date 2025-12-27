@@ -23,7 +23,7 @@ src/
  │   └─ runDemo.ts
  ├─ index.ts
  └─ types.ts
-
+```
 ---
 
 ## Problem Context
