@@ -2,23 +2,27 @@
 
 This project implements a **memory-driven learning layer** for invoice automation systems.  
 Instead of treating every invoice independently, the system **learns from past human corrections and resolutions** and applies those learnings to future invoices in a **safe, explainable, and auditable** manner.
+
 ---
-# Project Structure
-src
- ├─ engine
- │   ├─ recall.ts        
- │   ├─ apply.ts         
- │   ├─ decide.ts        
- │   ├─ learn.ts         
- │   └─ finalize.ts      
- ├─ memory
- │   ├─ store.ts         
- │   ├─ vendorMemory.ts  
- │   └─ resolutionMemory.ts 
- ├─ demo
- │   └─ runDemo.ts       
- ├─ index.ts             
- └─ types.ts             
+
+## Project Structure
+
+```text
+src/
+ ├─ engine/
+ │   ├─ recall.ts
+ │   ├─ apply.ts
+ │   ├─ decide.ts
+ │   ├─ learn.ts
+ │   └─ finalize.ts
+ ├─ memory/
+ │   ├─ store.ts
+ │   ├─ vendorMemory.ts
+ │   └─ resolutionMemory.ts
+ ├─ demo/
+ │   └─ runDemo.ts
+ ├─ index.ts
+ └─ types.ts
 
 ---
 
