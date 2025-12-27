@@ -6,19 +6,19 @@ Instead of treating every invoice independently, the system **learns from past h
 # Project Structure
 src/
  ├─ engine/
- │   ├─ recall.ts        # Memory recall logic
- │   ├─ apply.ts         # Apply memory + audit trail
- │   ├─ decide.ts        # Escalation & duplicate detection
- │   ├─ learn.ts         # Confidence reinforcement / decay
- │   └─ finalize.ts      # Final output contract assembler
+ │   ├─ recall.ts        
+ │   ├─ apply.ts         
+ │   ├─ decide.ts        
+ │   ├─ learn.ts         
+ │   └─ finalize.ts      
  ├─ memory/
- │   ├─ store.ts         # SQLite persistence layer
- │   ├─ vendorMemory.ts  # Vendor-specific memory rules
- │   └─ resolutionMemory.ts # Approved / rejected history
+ │   ├─ store.ts         
+ │   ├─ vendorMemory.ts  
+ │   └─ resolutionMemory.ts 
  ├─ demo/
- │   └─ runDemo.ts       # Learning-over-time demo runner
- ├─ index.ts             # Entry point / orchestration
- └─ types.ts             # Shared type definitions
+ │   └─ runDemo.ts       
+ ├─ index.ts             
+ └─ types.ts             
 
 ---
 
